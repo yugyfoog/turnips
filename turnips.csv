@@ -1,0 +1,41 @@
+Animal Crossing turnip prices
+
+variables:
+    ISLAND rai, yug
+    YEAR 2021-?
+    MONTH 1-12
+    DAY 1-31
+    WEEKDAY sun, mon, tue, wed, thur, fri, sat
+    AMPM am, pm
+    PRICE 0-?
+    DIR buy, sell
+
+load file in R with:
+    data <- read_csv("turnips.csv", skip=15)
+
+ISLAND, YEAR, MONTH, DAY, WEEKDAY, AMPM, PRICE, DIR
+rai, 2021, 1, 10, sun, am, 103, buy
+yug, 2021, 1, 10, sun, am, 94, buy
+rai, 2021, 1, 11, mon, am, 92, sell
+yug, 2021, 1, 11, mon, am, 128, sell
+yug, 2021, 1, 11, mon, pm, 128, sell
+rai, 2021, 1, 12, tue, am, 83, sell
+yug, 2021, 1, 12, tue, am, 94, sell
+rai, 2021, 1, 12, tue, pm, 80, sell
+yug, 2021, 1, 12, tue, pm, 88, sell
+rai, 2021, 1, 13, wed, am, 77, sell
+yug, 2021, 1, 13, wed, am, 69, sell
+rai, 2021, 1, 13, wed, pm, 73, sell
+yug, 2021, 1, 13, wed, pm, 65, sell
+rai, 2021, 1, 14, thur, am, 69, sell
+yug, 2021, 1, 14, thur, am, 56, sell
+rai, 2021, 1, 14, thur, pm, 64, sell
+yug, 2021, 1, 14, thur, pm, 115, sell
+yug, 2021, 1, 15, fri, am, 130, sell
+yug, 2021, 1, 15, fri, pm, 72, sell
+rai, 2021, 1, 16, sat, am, 52, sell
+yug, 2021, 1, 16, sat, am, 65, sell
+rai, 2021, 1, 16, sat, pm, 48, sell
+yug, 2021, 1, 16, sat, pm, 102, sell
+rai, 2021, 1, 17, sun, am, 95, buy
+yug, 2021, 1, 17, sun, am, 103, buy
