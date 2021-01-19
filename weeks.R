@@ -7,8 +7,6 @@ data <- read_csv("turnips.csv", skip=15)
 
 ggthemr("lilac");
 
-data
-
 p <- data %>%
      rowwise() %>%
      mutate(WEEKPOINT <- weekpoint(WEEKDAY, AMPM)) %>%

@@ -2,9 +2,6 @@
 
 library(tidyverse)
 library(xtable)
-library(ggthemr)
-
-ggthemr("lilac")
 
 data <- read_csv("turnips.csv", skip=15)
 
