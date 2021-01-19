@@ -5,13 +5,13 @@ library(ggthemr)
 
 data <- read_csv("turnips.csv", skip=15)
 
-ggthemr("lilac");
+ggthemr("lilac")
 
 p <- data %>%
        filter(DIR == "sell") %>%
        select(PRICE) %>%
        ggplot(aes(x=PRICE)) +
-         geom_histogram(binwidth=5) +
+         geom_histogram(binwidth=1) +
 	 labs(title = "Turnip Sale Prices",
 	      x = "Price (Bells)",
 	      y = "Count")
