@@ -57,8 +57,8 @@ rai, 2021, 1, 21, thur, pm, 104, sell
 yug, 2021, 1, 21, thur, pm, 165, sell
 rai, 2021, 1, 22, fri, am, 147, sell
 yug, 2021, 1, 22, fri, am, 391, sell
-rai, 2021, 1, 22, fri, pm, 162, yug
-sell, 2021, 1, 22, fri, pm, 203, sell
+rai, 2021, 1, 22, fri, pm, 162, sell
+yug, 2021, 1, 22, fri, pm, 203, sell
 rai, 2021, 1, 23, sat, am, 140, sell
 yug, 2021, 1, 23, sat, am, 127, sell
 rai, 2021, 1, 23, sat, pm, 55, sell
@@ -81,3 +81,7 @@ rai, 2021, 1, 28, thur, am, 103, sell
 yug, 2021, 1, 28, thur, am, 66, sell
 rai, 2021, 1, 28, thur, pm, 57, sell
 yug, 2021, 1, 28, thur, pm, 63, sell
+rai, 2021, 1, 29, fri, am, 50, sell
+yug, 2021, 1, 29, fri, am, 59, sell
+rai, 2021, 1, 29, fri, pm, 87, sell
+yug, 2021, 1, 29, fri, pm, 56, sell
