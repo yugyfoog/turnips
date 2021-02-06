@@ -1,6 +1,6 @@
 
 
-all: buyhist.pdf sellhist.pdf weeks.pdf recommend.pdf better.pdf
+all: buyhist.pdf sellhist.pdf weeks.pdf recommend.pdf better.pdf byweek.pdf
 
 buyhist.pdf: buy.R turnips.csv
 	Rscript buy.R
@@ -20,6 +20,8 @@ better.pdf: better.R better.tex turnips.csv
 	Rscript better.R
 	pdflatex -interaction nonstopmode -file-line-error better.tex
 	rm bettertable.tex
+
+byweek.pdf: byweek.R weekpoint.R turnips.csv
 
 clean:
 	rm -f *~ *.aux *.log
