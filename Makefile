@@ -22,6 +22,7 @@ better.pdf: better.R better.tex turnips.csv
 	rm bettertable.tex
 
 byweek.pdf: byweek.R weekpoint.R turnips.csv
+	Rscript byweek.R
 
 clean:
 	rm -f *~ *.aux *.log
