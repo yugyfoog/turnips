@@ -13,8 +13,6 @@ mdata <- data %>%
      rename(WEEKPOINT = starts_with("WEEKPOINT")) %>%
      select(PRICE, WEEKPOINT, day)
 
-mdata
-
 plot <- mdata %>%
      	  ggplot(aes(y = PRICE, x = WEEKPOINT, group=day, color=day)) +
             geom_line() +
